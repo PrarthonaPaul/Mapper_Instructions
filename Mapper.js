@@ -26,3 +26,20 @@ function onClick(element) {
           x.className = x.className.replace(" w3-show", "");
       }
   }
+
+//   var column1 = document.getElementsByClassName("Collapsible"); 
+//   var index; 
+
+//   for(index = 0; index < column1.length; index++){
+//     column1[index].addEventListener("click", function(){
+//         this.classList.toggle("active");
+//         var content = this.nextElementSibling; 
+
+//         if(content.style.maxHeight){
+//             content.style.maxHeight = NULL; 
+//         }
+//         else{
+//             content.style.maxHeight = content.style.maxHeight + "px";
+//         }
+//     });
+//     }
