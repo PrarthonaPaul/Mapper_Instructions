@@ -1,14 +1,14 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: #777;
+  color: #053613;
   line-height: 1.8;
   background-color: #d5ffe7;
 }
 
 ol, li, p{
   font-style: normal !important;   
-
+  text-align: justify;
 }
 
 img{
@@ -31,7 +31,7 @@ img{
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('Background.png');
+  background-image: url('background.jpg');
   opacity: 0.5;
   min-height: 100%;
 }
