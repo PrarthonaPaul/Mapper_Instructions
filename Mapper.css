@@ -3,6 +3,22 @@ body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+  background-color: #d5ffe7;
+}
+
+ol, li, p{
+  font-style: normal !important;   
+
+}
+
+img{
+  display: flex;
+  margin: auto;
+}
+.welcome{
+  background-color: #008038 !important;
+  color: #000;
+  padding: 15px, 10px, 15px, 10px ;
 }
 
 /* Create a Parallax Effect */
@@ -15,7 +31,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/w3images/parallax1.jpg');
+  background-image: url('Background.png');
+  opacity: 0.5;
   min-height: 100%;
 }
 
@@ -43,7 +60,7 @@ body, html {
 }
 
 .Collapsible{
-  background-color: #0face0;
+  background-color: #00c456;
   color: black;
   cursor: pointer;
   padding: 18px;
@@ -55,5 +72,5 @@ body, html {
 }
 
 .active, .Collapsible::hover {
-  background-color: #0c8bb6;
+  background-color: #00c456;
 }

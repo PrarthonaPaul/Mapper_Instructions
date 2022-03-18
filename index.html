@@ -22,24 +22,21 @@
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-map"></i> ABOUT </a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-info-circle"></i> INSTRUCTIONS </a>
-    <!-- <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> MEET THE TEAM </a> -->
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-leaf"></i> GO GREEN </a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">INSTRUCTIONS</a>
-    <!-- <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">MEET THE TEAM</a> -->
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">GO GREEN</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Welcome to <span class="w3-hide-small">Team 065 </span> Mapper</span>
+  <div class="w3-display-middle welcome" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity" >Welcome to <span class="w3-hide-small">Team 065 </span> Mapper</span>
   </div>
 </div>
 
@@ -53,6 +50,8 @@
     city, such as golfcourses, parks, lakes, streams etc; and points of interests, such as restaurents, coffee shops, banks, etc.
     The user can also query the map to search for intersections, streets and look for their Information. 
   </p>
+
+  <br>
 
   <p class="w3-large w3-center w3-padding-16">Key features of the software:</p>
   <button type="button" class="Collapsible"> Feature 1: Loading maps for different cities</button>
@@ -79,6 +78,8 @@
   </div>
   <img src="POI.png" alt="mapper" style="width:90%;">
 
+  <br>
+
   <button type="button" class="Collapsible"> Feature 3: Dark mode</button>
   <div class="content">
     <p>
@@ -88,6 +89,8 @@
     </p>
   </div>
   <img src="darkMode.png" alt="mapper" style="width:90%;">
+
+  <br>
 
   <button type="button" class="Collapsible"> Feature 4: Subways</button>
   <div class="content">
@@ -101,6 +104,8 @@
     <img src="subway.png" alt="mapper" style="width:90%;">
   </div>
 
+  <br>
+
   <button type="button" class="Collapsible"> Feature 5: Finding intersections</button>
   <div class="content">
     <p>
@@ -112,7 +117,7 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
+<div class="w3-content w3-container w3-padding-32" id="portfolio">
   <h3 class="w3-center">INSTRUCTIONS</h3>
   <p class="w3-center"><em>Here are some instructions on on how to use the software.<br></p><br>
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
@@ -186,6 +191,21 @@
       </li>
     </ol>
 
+    <div class="w3-row" id="contact">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-leaf w3-margin-right"></i>GO GREEN INITIATIVE</b></p><br>
+        <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      </div>
+  
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>In order to help our communities go green, we have taken the initiative to help our users go green with their daily commute to work, school and more! Each time you 
+          searches for the directions to a destination. Based on our algorithm, which looks at various factors, such as speed limit, the path to a destination and its travel time, 
+          the software will give you the shortest and quickest path, along with a path that is the most environmentally firendly. These paths will be composed of walking, taking the 
+          subway and the bus. 
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 </body>
