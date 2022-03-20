@@ -6,6 +6,11 @@ body, html {
   background-color: #d5ffe7;
 }
 
+#myNavbar {
+  background-color: #053613;
+  color: white;
+}
+
 ol, li, p{
   font-style: normal !important;   
   text-align: justify;
@@ -16,8 +21,8 @@ img{
   margin: auto;
 }
 .welcome{
-  background-color: #008038 !important;
-  color: #000;
+  background-color: #02240c !important;
+  color: #ffffff;
   padding: 15px, 10px, 15px, 10px ;
 }
 
